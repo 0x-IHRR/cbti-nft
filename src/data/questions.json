@@ -1,0 +1,390 @@
+[
+  {
+    "id": "q01",
+    "text": "凌晨3点，你刷到一个新项目在Twitter疯传，你的第一反应是？",
+    "group": "FOMO_IMPULSE",
+    "options": [
+      { "id": "a", "text": "立刻打开DEX冲一把，晚了就没了" },
+      { "id": "b", "text": "先看看合约地址，研究一下再说" },
+      { "id": "c", "text": "截图发群里问兄弟们怎么看" },
+      { "id": "d", "text": "翻个身继续睡，明天再说" }
+    ],
+    "strongMatch": "IM",
+    "secondaryMatch": "CU"
+  },
+  {
+    "id": "q02",
+    "text": "你看到一个币5分钟涨了200%，你会？",
+    "group": "FOMO_IMPULSE",
+    "options": [
+      { "id": "a", "text": "All in！这就是下一个百倍币" },
+      { "id": "b", "text": "小仓位试试水，亏了当交学费" },
+      { "id": "c", "text": "打开K线分析一下再决定" },
+      { "id": "d", "text": "已经涨了200%了还追？我又不是韭菜" }
+    ],
+    "strongMatch": "IM",
+    "secondaryMatch": "CP"
+  },
+  {
+    "id": "q03",
+    "text": "KOL喊单了一个你从没听过的项目，你的操作是？",
+    "group": "FOMO_IMPULSE",
+    "options": [
+      { "id": "a", "text": "KOL说买就买，他亏我也认" },
+      { "id": "b", "text": "先去看看这个KOL的历史战绩" },
+      { "id": "c", "text": "等跌了再接，我就是逆向思维" }
+    ],
+    "strongMatch": "IM",
+    "secondaryMatch": "TM"
+  },
+  {
+    "id": "q04",
+    "text": "你的portfolio一夜之间跌了40%，你的心态是？",
+    "group": "FOMO_IMPULSE",
+    "options": [
+      { "id": "a", "text": "加仓！打折了不买等什么" },
+      { "id": "b", "text": "割了，保住剩下的本金" },
+      { "id": "c", "text": "关掉APP，眼不见心不烦" },
+      { "id": "d", "text": "发推吐槽，然后继续拿着" }
+    ],
+    "strongMatch": "IM",
+    "secondaryMatch": "CV"
+  },
+  {
+    "id": "q05",
+    "text": "朋友圈有人晒了10x收益截图，你的反应是？",
+    "group": "FOMO_IMPULSE",
+    "options": [
+      { "id": "a", "text": "问他买的什么，我也要冲" },
+      { "id": "b", "text": "恭喜恭喜（内心已经在搜合约地址了）" },
+      { "id": "c", "text": "P的吧，我不信" },
+      { "id": "d", "text": "无所谓，我有自己的节奏" }
+    ],
+    "strongMatch": "IM",
+    "secondaryMatch": "CP"
+  },
+  {
+    "id": "q06",
+    "text": "Gas费暴涨到平时的10倍，你正准备买一个新币，你会？",
+    "group": "FOMO_IMPULSE",
+    "options": [
+      { "id": "a", "text": "管他呢，Gas费算什么，冲就完了" },
+      { "id": "b", "text": "等Gas降下来再操作" },
+      { "id": "c", "text": "换个L2链操作，省钱要紧" }
+    ],
+    "strongMatch": "IM",
+    "secondaryMatch": "CU"
+  },
+  {
+    "id": "q07",
+    "text": "你持有的币已经跌了80%，社区都在喊\"项目已死\"，你怎么做？",
+    "group": "CONVICTION_DIAMOND",
+    "options": [
+      { "id": "a", "text": "继续拿着，我信这个团队" },
+      { "id": "b", "text": "割了吧，留得青山在" },
+      { "id": "c", "text": "加仓！别人恐惧我贪婪" },
+      { "id": "d", "text": "去Discord问问开发者还在不在" }
+    ],
+    "strongMatch": "CV",
+    "secondaryMatch": "CP"
+  },
+  {
+    "id": "q08",
+    "text": "你最长能HODL一个币多久？",
+    "group": "CONVICTION_DIAMOND",
+    "options": [
+      { "id": "a", "text": "至少一个完整周期，3-4年起步" },
+      { "id": "b", "text": "看情况，有利润就跑" },
+      { "id": "c", "text": "一周已经是我的极限了" },
+      { "id": "d", "text": "买了就忘了，钱包密码都不记得了" }
+    ],
+    "strongMatch": "CV",
+    "secondaryMatch": "TM"
+  },
+  {
+    "id": "q09",
+    "text": "有人说你持有的项目是\"骗局\"，你的反应是？",
+    "group": "CONVICTION_DIAMOND",
+    "options": [
+      { "id": "a", "text": "写一篇长文反驳，用数据说话" },
+      { "id": "b", "text": "他说他的，我拿我的" },
+      { "id": "c", "text": "慌了，赶紧去查查是不是真的" },
+      { "id": "d", "text": "拉黑，不跟FUD的人浪费时间" }
+    ],
+    "strongMatch": "CV",
+    "secondaryMatch": "CU"
+  },
+  {
+    "id": "q10",
+    "text": "牛市来了，你的持仓已经5x了，你会？",
+    "group": "CONVICTION_DIAMOND",
+    "options": [
+      { "id": "a", "text": "继续拿着，目标100x" },
+      { "id": "b", "text": "卖一半，落袋为安" },
+      { "id": "c", "text": "全卖了，利润到手才是真的" },
+      { "id": "d", "text": "加仓！牛市才刚开始" }
+    ],
+    "strongMatch": "CV",
+    "secondaryMatch": "IM"
+  },
+  {
+    "id": "q11",
+    "text": "你选择投资一个项目最看重什么？",
+    "group": "CONVICTION_DIAMOND",
+    "options": [
+      { "id": "a", "text": "团队背景和技术实力" },
+      { "id": "b", "text": "社区热度和Meme传播力" },
+      { "id": "c", "text": "K线形态和交易量" },
+      { "id": "d", "text": "有没有大V站台" }
+    ],
+    "strongMatch": "CV",
+    "secondaryMatch": "TM"
+  },
+  {
+    "id": "q12",
+    "text": "熊市里你的日常是？",
+    "group": "CONVICTION_DIAMOND",
+    "options": [
+      { "id": "a", "text": "默默DCA，定投不停" },
+      { "id": "b", "text": "清仓观望，等信号再进" },
+      { "id": "c", "text": "研究新赛道，为下一轮做准备" },
+      { "id": "d", "text": "卸载所有交易APP，假装没炒过币" }
+    ],
+    "strongMatch": "CV",
+    "secondaryMatch": "CP"
+  },
+  {
+    "id": "q13",
+    "text": "你觉得什么时候是买入的最佳时机？",
+    "group": "TIMING",
+    "options": [
+      { "id": "a", "text": "别人恐惧的时候，恐慌指数越低越好" },
+      { "id": "b", "text": "突破关键阻力位的时候" },
+      { "id": "c", "text": "KOL喊单的时候" },
+      { "id": "d", "text": "什么时候有钱什么时候买" }
+    ],
+    "strongMatch": "TM",
+    "secondaryMatch": "CV"
+  },
+  {
+    "id": "q14",
+    "text": "你怎么决定卖出时机？",
+    "group": "TIMING",
+    "options": [
+      { "id": "a", "text": "设好止盈止损，到了就执行" },
+      { "id": "b", "text": "感觉差不多了就卖" },
+      { "id": "c", "text": "等到所有人都在喊牛市的时候" },
+      { "id": "d", "text": "从来不卖，Diamond Hands" }
+    ],
+    "strongMatch": "TM",
+    "secondaryMatch": "IM"
+  },
+  {
+    "id": "q15",
+    "text": "你对技术分析（TA）的态度是？",
+    "group": "TIMING",
+    "options": [
+      { "id": "a", "text": "每天画线看指标，MACD RSI一个不落" },
+      { "id": "b", "text": "偶尔看看K线，主要靠感觉" },
+      { "id": "c", "text": "TA是玄学，不如看链上数据" },
+      { "id": "d", "text": "什么是TA？我只看Twitter" }
+    ],
+    "strongMatch": "TM",
+    "secondaryMatch": "CU"
+  },
+  {
+    "id": "q16",
+    "text": "市场突然暴跌，你的第一个操作是？",
+    "group": "TIMING",
+    "options": [
+      { "id": "a", "text": "检查止损有没有触发" },
+      { "id": "b", "text": "看看是什么消息导致的" },
+      { "id": "c", "text": "抄底！这就是机会" },
+      { "id": "d", "text": "打开推特看大家的反应" }
+    ],
+    "strongMatch": "TM",
+    "secondaryMatch": "CP"
+  },
+  {
+    "id": "q17",
+    "text": "你一般持仓多少个不同的币？",
+    "group": "TIMING",
+    "options": [
+      { "id": "a", "text": "1-3个，集中火力" },
+      { "id": "b", "text": "5-10个，适度分散" },
+      { "id": "c", "text": "10+个，广撒网多捞鱼" },
+      { "id": "d", "text": "我自己都数不清了" }
+    ],
+    "strongMatch": "TM",
+    "secondaryMatch": "CV"
+  },
+  {
+    "id": "q18",
+    "text": "你会根据宏观经济数据调整仓位吗？",
+    "group": "TIMING",
+    "options": [
+      { "id": "a", "text": "当然，CPI、利率决议我都盯着" },
+      { "id": "b", "text": "偶尔关注一下大事件" },
+      { "id": "c", "text": "Crypto是独立行情，不看宏观" },
+      { "id": "d", "text": "什么是CPI？能吃吗？" }
+    ],
+    "strongMatch": "TM",
+    "secondaryMatch": "IM"
+  },
+  {
+    "id": "q19",
+    "text": "你的币跌了50%，你在群里会说什么？",
+    "group": "COPIUM",
+    "options": [
+      { "id": "a", "text": "这只是洗盘，庄家在吸筹" },
+      { "id": "b", "text": "长期看好，短期波动不影响" },
+      { "id": "c", "text": "我已经割了，你们随意" },
+      { "id": "d", "text": "发一个🤡表情，然后沉默" }
+    ],
+    "strongMatch": "CP",
+    "secondaryMatch": "CV"
+  },
+  {
+    "id": "q20",
+    "text": "项目方跑路了，你的第一反应是？",
+    "group": "COPIUM",
+    "options": [
+      { "id": "a", "text": "也许他们只是在重组团队" },
+      { "id": "b", "text": "我就知道，早该跑的" },
+      { "id": "c", "text": "去链上追踪资金流向" },
+      { "id": "d", "text": "发推@所有人，让大家一起维权" }
+    ],
+    "strongMatch": "CP",
+    "secondaryMatch": "CU"
+  },
+  {
+    "id": "q21",
+    "text": "你买的NFT地板价归零了，你会？",
+    "group": "COPIUM",
+    "options": [
+      { "id": "a", "text": "换成头像，至少还能用" },
+      { "id": "b", "text": "等社区复兴，说不定还能涨回来" },
+      { "id": "c", "text": "当作买了个教训" },
+      { "id": "d", "text": "继续在Discord里活跃，万一有空投呢" }
+    ],
+    "strongMatch": "CP",
+    "secondaryMatch": "IM"
+  },
+  {
+    "id": "q22",
+    "text": "你亏钱之后最常对自己说的话是？",
+    "group": "COPIUM",
+    "options": [
+      { "id": "a", "text": "这是交学费，下次一定" },
+      { "id": "b", "text": "大盘的问题，不是我的问题" },
+      { "id": "c", "text": "早知道就...（省略一万字）" },
+      { "id": "d", "text": "没事，还年轻，亏得起" }
+    ],
+    "strongMatch": "CP",
+    "secondaryMatch": "TM"
+  },
+  {
+    "id": "q23",
+    "text": "你关注的项目延期了半年还没上线，你怎么看？",
+    "group": "COPIUM",
+    "options": [
+      { "id": "a", "text": "好事多磨，说明团队在认真做事" },
+      { "id": "b", "text": "有点慌，但还是选择相信" },
+      { "id": "c", "text": "已经不抱希望了，就当沉没成本" },
+      { "id": "d", "text": "去GitHub看看代码有没有更新" }
+    ],
+    "strongMatch": "CP",
+    "secondaryMatch": "CV"
+  },
+  {
+    "id": "q24",
+    "text": "别人问你炒币赚了多少，你会？",
+    "group": "COPIUM",
+    "options": [
+      { "id": "a", "text": "只说赚的，亏的不提" },
+      { "id": "b", "text": "如实相告，亏麻了" },
+      { "id": "c", "text": "说\"还行\"，然后转移话题" },
+      { "id": "d", "text": "反问他赚了多少" }
+    ],
+    "strongMatch": "CP",
+    "secondaryMatch": "IM"
+  },
+  {
+    "id": "q25",
+    "text": "看到一个新的Layer2/新链上线，你的第一反应是？",
+    "group": "CURIOSITY_MINT",
+    "options": [
+      { "id": "a", "text": "立刻去测试网交互，万一有空投" },
+      { "id": "b", "text": "先研究技术文档和团队背景" },
+      { "id": "c", "text": "等别人踩完坑我再去" },
+      { "id": "d", "text": "又一个新链？已经麻了" }
+    ],
+    "strongMatch": "CU",
+    "secondaryMatch": "IM"
+  },
+  {
+    "id": "q26",
+    "text": "你的钱包里有多少个不同链的地址？",
+    "group": "CURIOSITY_MINT",
+    "options": [
+      { "id": "a", "text": "5个以上，每条链都要体验一下" },
+      { "id": "b", "text": "2-3个，够用就行" },
+      { "id": "c", "text": "就一个，ETH/SOL主链走天下" },
+      { "id": "d", "text": "我都不知道自己有几个了" }
+    ],
+    "strongMatch": "CU",
+    "secondaryMatch": "TM"
+  },
+  {
+    "id": "q27",
+    "text": "有个新的DeFi协议刚上线，TVL还很低，你会？",
+    "group": "CURIOSITY_MINT",
+    "options": [
+      { "id": "a", "text": "冲！早期参与者收益最高" },
+      { "id": "b", "text": "先审计报告看了再说" },
+      { "id": "c", "text": "等TVL上来了再考虑" },
+      { "id": "d", "text": "DeFi太复杂了，我只买现货" }
+    ],
+    "strongMatch": "CU",
+    "secondaryMatch": "CV"
+  },
+  {
+    "id": "q28",
+    "text": "你平均每周会Mint几个NFT？",
+    "group": "CURIOSITY_MINT",
+    "options": [
+      { "id": "a", "text": "3个以上，Free Mint必冲" },
+      { "id": "b", "text": "1-2个，精挑细选" },
+      { "id": "c", "text": "基本不Mint，除非特别看好" },
+      { "id": "d", "text": "NFT？那不是已经凉了吗" }
+    ],
+    "strongMatch": "CU",
+    "secondaryMatch": "CP"
+  },
+  {
+    "id": "q29",
+    "text": "你怎么发现新项目的？",
+    "group": "CURIOSITY_MINT",
+    "options": [
+      { "id": "a", "text": "每天刷Twitter/Farcaster，关注Alpha猎人" },
+      { "id": "b", "text": "看链上数据，Smart Money跟踪" },
+      { "id": "c", "text": "朋友推荐或者群里看到" },
+      { "id": "d", "text": "等上了大所再关注" }
+    ],
+    "strongMatch": "CU",
+    "secondaryMatch": "TM"
+  },
+  {
+    "id": "q30",
+    "text": "你对\"撸毛\"（空投交互）的态度是？",
+    "group": "CURIOSITY_MINT",
+    "options": [
+      { "id": "a", "text": "专业撸毛，多号批量操作" },
+      { "id": "b", "text": "偶尔撸一下，主要看项目质量" },
+      { "id": "c", "text": "太累了，不如直接买币" },
+      { "id": "d", "text": "撸毛是什么？听起来很奇怪" }
+    ],
+    "strongMatch": "CU",
+    "secondaryMatch": "IM"
+  }
+]
